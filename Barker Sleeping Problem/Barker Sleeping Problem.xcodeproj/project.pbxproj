@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		E2319D452066AAAB008111B1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2319D442066AAAB008111B1 /* main.cpp */; };
-		E2319D4D20676C1A008111B1 /* check.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2319D4B20676C1A008111B1 /* check.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,8 +25,6 @@
 /* Begin PBXFileReference section */
 		E2319D412066AAAB008111B1 /* Barker Sleeping Problem */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Barker Sleeping Problem"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2319D442066AAAB008111B1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		E2319D4B20676C1A008111B1 /* check.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = check.cpp; sourceTree = "<group>"; };
-		E2319D4C20676C1A008111B1 /* check.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = check.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +58,6 @@
 			isa = PBXGroup;
 			children = (
 				E2319D442066AAAB008111B1 /* main.cpp */,
-				E2319D4B20676C1A008111B1 /* check.cpp */,
-				E2319D4C20676C1A008111B1 /* check.hpp */,
 			);
 			path = "Barker Sleeping Problem";
 			sourceTree = "<group>";
@@ -124,7 +119,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2319D4D20676C1A008111B1 /* check.cpp in Sources */,
 				E2319D452066AAAB008111B1 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
